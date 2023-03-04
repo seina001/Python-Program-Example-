@@ -31,7 +31,7 @@ classifiers = [
 
 
 [project.urls]
-repository = "http://github.com/usda-ars-gbru/itsxpress"
+repository = "https://github.com/seina001/pyprog"
 
 [project.optional-dependencies]
 tests = [
