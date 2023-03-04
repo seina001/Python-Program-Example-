@@ -45,20 +45,25 @@ Now we need to make sure we all have python/pip etc.
 
 Links:
 https://packaging.python.org/en/latest/tutorials/installing-packages/
+
 See "Installing from other Indexes" in above link.
 
 https://packaging.python.org/en/latest/flow/
+
 https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+
 Both links have useful information on packaging. Including the following:
 
-"""
+
+""
 The first thing you’ll need to do is register an account on TestPyPI, which is a separate instance of the package index intended for testing and experimentation. It’s great for things like this tutorial where we don’t necessarily want to upload to the real index. To register an account, go to https://test.pypi.org/account/register/ and complete the steps on that page. You will also need to verify your email address before you’re able to upload any packages. For more details, see Using TestPyPI.
 
 To securely upload your project, you’ll need a PyPI API token. Create one at https://test.pypi.org/manage/account/#api-tokens, setting the “Scope” to “Entire account”. Don’t close the page until you have copied and saved the token — you won’t see that token again.
 
 Now that you are registered, you can use twine to upload the distribution packages. You’ll need to install Twine:
 You will be prompted for a username and password. For the username, use __token__. For the password, use the token value, including the pypi- prefix.
-"""
+""
 
 
 .. code-block:: bash
