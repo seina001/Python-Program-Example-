@@ -46,14 +46,16 @@ Now we need to make sure we all have python/pip etc.
 Finally we’re ready to create our package!
 --------------------------------------------
 Source files needed:
-ChevLab_add/
-	__init__.py
-	main.py
-pyproject.toml
-LICENSE
-README.rst
-tests/
-    test_data/
-        Dataframe.txt
-	main_test.py
+
+- ChevLab_add/
+    - __init__.py
+    - main.py
+- pyproject.toml
+- LICENSE
+- README.rst
+
+- tests/
+    - test_data/
+        - Dataframe.txt
+	- main_test.py
 
