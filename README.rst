@@ -93,3 +93,11 @@ Source files needed:
     #In the package repository
     python3 -m build
     python3 -m twine upload --repository testpypi dist/*
+
+Testing your package from test.pypi
+------------------------------------
+
+.. code-block:: bash
+
+    #In your environment (not base)
+    python -m pip install --index-url https://test.pypi.org/simple --extra-index-url https://pypi.org/simple chevlabpkg
