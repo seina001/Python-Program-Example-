@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "chevlab_pkg"
+name = "chevlabpkg"
 version = "0.1.0"
 description = "Test package"
 authors = [
@@ -40,4 +40,4 @@ tests = [
 
 
 [project.scripts]
-ChevLab_add="ChevLab_add.main:main"
+chevlabpkg="chevlabpkg.main:main"

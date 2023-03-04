@@ -5,7 +5,7 @@ import pandas as pd
 
 import pytest
 
-import chevlab_pkg
+import chevlabpkg
 
 TEST_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -13,6 +13,6 @@ TEST_DIR = os.path.dirname(os.path.abspath(__file__))
 def test_check_sum():
 	dframe_path = os.path.join(TEST_DIR, "test_data", "Dataframe.txt")
 	dframe = pd.read_csv(dframe_path)
-	#pytest.raises(ValueError, chevlab_pkg.AdditionDivision._sumdataframe, dframe)
-	assert chevlab_pkg.main.AdditionDivision._sumdataframe(dframe)[0] == 10
+	#pytest.raises(ValueError, chevlabpkg.AdditionDivision._sumdataframe, dframe)
+	assert chevlabpkg.main.AdditionDivision._sumdataframe(dframe)[0] == 10
 
