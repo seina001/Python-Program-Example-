@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "ChevLab_add"
+version = "0.1.0"
+description = "Test package"
+authors = [
+    {name = "Sveinn V. Einarsson", email = "seinarsson@ufl.edu"}]
+maintainers = [
+    {name = "Sveinn V. Einarsson", email = "seinarsson@ufl.edu"}]
+license = {file = "LICENSE.txt"}
+readme = "README.rst"
+keywords = ["Adding", "Dividing", "fungal", "ITS"]
+requires-python = ">=3.8"
+
+dependencies = [
+    "pandas",
+]
+
+
+classifiers = [
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.5",
+    "Development Status :: 3 - Alpha"
+]
+
+
+
+[project.urls]
+repository = "http://github.com/usda-ars-gbru/itsxpress"
+
+[project.optional-dependencies]
+tests = [
+"pytest"
+]
+
+
+[project.scripts]
+ChevLab_add="ChevLab_add.main:main"
