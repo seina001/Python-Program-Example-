@@ -104,7 +104,9 @@ Testing your package from test.pypi
 
 Future things to address
 ------------------------
+
 Things we can further touch on if of interest in the future:
+
 - Building and uploading the package to pypi (for pip install)
     - Further discussion on pyproject.toml, dependencies, etc.
 - Test folder and test scripts using pytest and why they're used
