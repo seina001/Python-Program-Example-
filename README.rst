@@ -101,3 +101,15 @@ Testing your package from test.pypi
 
     #In your environment (not base)
     python -m pip install --index-url https://test.pypi.org/simple --extra-index-url https://pypi.org/simple chevlabpkg
+
+Future things to address
+------------------------
+Things we can further touch on if of interest in the future:
+- Building and uploading the package to pypi (for pip install)
+    - Further discussion on pyproject.toml, dependencies, etc.
+- Test folder and test scripts using pytest and why they're used
+- Github, git version control and commits with a package
+- Creating a release on Github
+- Github actions to automatically test your packages monthly or for each version you push
+    - Helpful if you have dependencies and want to keep ahead of breaks in the code caused by new versions of your dependencies (pandas in this case)
+- Creating a conda recipe for uploading to conda channels
