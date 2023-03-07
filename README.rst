@@ -3,11 +3,11 @@ How to make our own python packages:
 
 GUI compiler and tools needed:
 ------------------------------
-First we'll need VSCode, which wraps useful plugins like git, jupyter, docker, terminal, 
+First we'll need Visual Studio Code, which wraps useful plugins like git, jupyter, docker, terminal, 
 and also has a good realtime graphical representation of function descriptions, problems and debugging.
 
 - Download VSCode:
-    - Link
+    - https://code.visualstudio.com/download
     - craete a unique folder and name it
 
 Now that we have a folder open, lets create an environment for us to work in using mamba or conda:
