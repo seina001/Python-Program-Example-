@@ -94,19 +94,18 @@ We'll also need the tools to build and upload our package (build and twine):
 Finally we’re ready to create our package!
 --------------------------------------------
 Source files needed:
+.. code-block:: bash
 
-- mypackage/          #Folder that your package is called
-    - __init__.py     #Package initializer, tells your computer which files it needs to run your package
-    - main.py         #Main program file
-
-- pyproject.toml      #Package setup file, is used to build your package and install dependencies etc. (setup.py/setup.cfg is depreciated)
-- LICENSE             #Licensing file
-- README.rst          #Readme file, formatted for Github repository
-
-- tests/              #Test folder, used to run pytest to test individual functions
-    - test_data/      #Test data folder
-        - Dataframe.txt    #Test data file
-    - main_test.py    #Test script, running asserts/error messaging confirmations to determine our program is running as it should
+    mypackage/          #Folder that your package is called
+        __init__.py     #Package initializer, tells your computer which files it needs to run your package
+        main.py         #Main program file
+    pyproject.toml      #Package setup file, is used to build your package and install dependencies etc. (setup.py/setup.cfg is depreciated)
+    LICENSE             #Licensing file
+    README.rst          #Readme file, formatted for Github repository
+    tests/              #Test folder, used to run pytest to test individual functions
+        test_data/      #Test data folder
+            Dataframe.txt    #Test data file
+        main_test.py    #Test script, running asserts/error messaging confirmations to determine our program is running as it should
 
 
 Let's now build our python package by building our distribution files (tar.gz/wheel files) and uploading to test.pypi:
